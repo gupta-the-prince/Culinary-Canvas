@@ -1,0 +1,246 @@
+<html>
+    <head>
+<style>
+    body{
+        background-color: rgb(5, 31, 5);
+        margin:0%
+        padding: 0%;
+        height: 700px;
+    }
+
+    .uppertext{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #526b43;
+    }
+    i{
+        color:beige;
+        font-size:x-large;
+    }
+     
+    #h{
+        color:beige;
+        text-decoration: none;
+        
+        
+    }
+    #h:hover {
+        color:greenyellow;
+        text-decoration: underline;
+
+    }
+    .r{
+        color:beige;
+        text-decoration: none;
+    
+    }
+    .r:hover{
+        color:greenyellow;
+        text-decoration:underline;
+    }
+    .l{
+        color:beige;
+        text-decoration: none;
+    }
+    .l:hover{
+        color:greenyellow;
+        text-decoration:underline;
+    }
+    .a{
+        color:beige;
+        text-decoration: none;
+        float:right;
+
+    }
+    .a:hover{
+        color:greenyellow;
+        text-decoration:underline;
+    }
+
+    .i{
+        width: 100%;
+        height:500px;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    .im{
+        width:100%;
+        height:300px;
+        margin:0%;
+        padding-top: 10px;
+    }
+    
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color:bisque;
+            font-size: 32px;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .view {
+            color: #526b43;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Cards container */
+        .container {
+            display: flex;
+            gap: 25px;
+        }
+
+        /* Individual card */
+        .card {
+            background-color: #fffefa;
+            width: 25%;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 145px;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 12px 15px;
+        }
+
+        .content h3 {
+            font-size: 17px;
+            font-style: italic;
+            color: #34452d;
+            margin: 0 0 15px;
+        }
+
+        /* Time and difficulty */
+        .details {
+            display: flex;
+            justify-content: space-between;
+            color: #777777;
+            font-size: 13px;
+        }
+
+    svg{
+        width:100%;
+        height:200px;
+        display:block;
+    }
+    .rect{
+        width: 100%;
+        height: 20px;
+        fill:bisque;
+    }
+    .rect i{
+        color:rgb(10, 32, 10);
+    }
+    
+</style>
+    </head>
+    <body>
+        <div class="uppertext">
+        <i>Culinary  Canvas </i>
+        <a id="h" href="project.html" target="_self"> home </a>
+
+        <a class="r" href="recipes" target="_blank">Recipes</a>
+
+         <a class="l" href="location" target="_blank">Locations</a>
+
+         <a class="a" href="about" target="_blank">about</a><br>
+         </div>
+
+        <img class="i" src="mainpage1.jpeg"><br>
+
+        <img class="im" src="mainpage2.jpeg"><br><br>
+
+        
+
+        <div class="heading">
+        <h1>Popular Dishes</h1>
+
+        <a href="recipes" target="_blank" class="view">
+            View All Recipes →
+        </a>
+        <a href="location" target="_blank" class="view">
+            View All Locations →
+        </a>
+
+
+    </div>
+
+    <div class="container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="1st Food.jpeg">
+
+            <div class="content">
+                <h3>Masala Dosa</h3>
+
+                <div class="details">
+                    <span>◷ 30 mins</span>
+                    <span>♧ Easy</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="2nd.jpeg">
+
+            <div class="content">
+                <h3>Tasty momos</h3>
+
+                <div class="details">
+                    <span>◷ 20 mins</span>
+                    <span>♧ Easy</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="3rd.jpeg">
+
+            <div class="content">
+                <h3>Fresh Coffee</h3>
+
+                <div class="details">
+                    <span>◷ 15 mins</span>
+                    <span>♧ Very Easy</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="4th.jpeg">
+
+            <div class="content">
+                <h3>Delicious Waffle</h3>
+
+                <div class="details">
+                    <span>◷ 25 mins</span>
+                    <span>♧ Easy</span>
+                </div>
+            </div>
+        </div>
+
+    </div><br><br>
+
+        <svg><rect class="rect"></rect></svg>
+
+        
+    </body>
+</html>
